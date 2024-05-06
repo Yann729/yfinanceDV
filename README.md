@@ -4,7 +4,7 @@ This package facilitates the creation of candlestick charts enriched with volume
 With yfinanceDV, users can easily generate insightful visual representations of financial data to aid in analysis and decision-making.
 
 # Installation
-You can install the package directly from GitHub using the devtools package:
+Package can be installed directly from GitHub using the devtools package:
 ```
 devtools::install_github("Yann729/yfinanceDV")
 ```
