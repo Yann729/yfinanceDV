@@ -1,4 +1,4 @@
--# Overview
+# Overview
 'yfinanceDV' is an R package designed based on the 'quantmod' package, focusing on visualizing financial data(e.g. Stock Indices, Commodities, etc.) sourced from Yahoo Finance using Plotly. 
 This package facilitates the creation of candlestick charts with volume bar, simple moving averages, and various technical indicators(for example RSI, MACD, etc.). 
 With 'yfinanceDV', users can easily generate insightful visual representations of financial data to aid in analysis and decision-making.
