@@ -4,11 +4,13 @@ It allows users to easily plot candlestick charts along with volume, moving aver
 
 # Installation
 You can install the package directly from GitHub using the devtools package:
+```
 devtools::install_github("Yann729/yfinanceDV")
+```
 
 # Usage
 Plotting Financial Data
-
+```
 library(yfinanceDV)
 
 # Plotting stock data for AAPL
@@ -22,7 +24,7 @@ pltDV("AAPL", from = "2021-01-01", to = "2022-01-01")
 
 # Plotting stock data for AAPL within a date range with a 50-period SMA
 pltDV("AAPL", from = "2021-01-01", to = "2022-01-01", SMA_period = 50)
-
+```
 # Contributing
 Contributions to yfinanceDV are welcome! If you find any issues or have suggestions for improvements, please open an issue on GitHub.
 
