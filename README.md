@@ -9,7 +9,7 @@ devtools::install_github("Yann729/yfinanceDV")
 ```
 
 # Usage
-Plotting Financial Data
+Plotting Financial Data Visualization
 ```
 library(yfinanceDV)
 
