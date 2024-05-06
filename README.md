@@ -1,6 +1,7 @@
 # Overview
-yfinanceDV is an R package that provides functions to visualize financial data sourced from Yahoo Finance using Plotly. 
-It allows users to easily plot candlestick charts along with volume, moving averages, and other technical indicators.
+yfinanceDV is an R package designed as an extension of the quantmod package, focusing on visualizing financial data(e.g. Stock Indices, Commodities) sourced from Yahoo Finance using Plotly. 
+This package facilitates the creation of candlestick charts enriched with volume, simple moving averages, and various technical indicators(for example RSI, MACD). 
+With yfinanceDV, users can easily generate insightful visual representations of financial data to aid in analysis and decision-making.
 
 # Installation
 You can install the package directly from GitHub using the devtools package:
@@ -9,7 +10,7 @@ devtools::install_github("Yann729/yfinanceDV")
 ```
 
 # Usage
-Plotting Financial Data Visualization
+Examples of plotting Financial Data Visualization
 ```
 library(yfinanceDV)
 
@@ -29,7 +30,6 @@ pltDV("AAPL", from = "2021-01-01", to = "2022-01-01", SMA_period = 50)
 Contributions to yfinanceDV are welcome! If you find any issues or have suggestions for improvements, please open an issue on GitHub.
 
 # License
-This package is distributed under the MIT License. See the LICENSE file for details.
+This package is under the MIT License. See the LICENSE file for details.
 
-
-Feel free to customize it further based on your specific package features and requirements! Let me know if you need any more assistance.
+Please feel free to customize it further! Let me know if you need any more assistance.
