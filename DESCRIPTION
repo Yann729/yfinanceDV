@@ -1,0 +1,30 @@
+Package: yfinanceDV
+Title: Financial Data Visualization Package for Data Science Project 2023-2024
+Version: 1.0
+Authors@R: 
+    person(
+    given = "Weinan",
+    family = "He",
+    email = "weinan.he23@imperial.ac.uk",
+    role = c("aut", "cre"))
+Description: The package provides a comprehensive suite of tools for visualizing 
+    financial data sourced from YAHOO. users can generate interactive plots, including 
+    candlestick charts, simple moving averages, and volume bars. Additionally, the 
+    package offers the flexibility to incorporate technical indicators such as Relative 
+    strength index(RSI), Moving average convergence/divergence(MACD), and Stochastic 
+    Oscillator, enabling deeper analysis of market trends and patterns.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.0
+Imports: 
+    dplyr,
+    grDevices,
+    plotly,
+    quantmod,
+    TTR,
+    xts,
+    zoo
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
