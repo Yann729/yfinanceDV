@@ -25,6 +25,9 @@ pltDV("AAPL", from = "2021-01-01", to = "2022-01-01")
 
 # Plotting stock data for AAPL within a date range with a 50-period SMA
 pltDV("AAPL", from = "2021-01-01", to = "2022-01-01", SMA_period = 50)
+
+# Plotting stock data for AAPL within a date range with a 50-period SMA and an indicator RSI
+pltDV("AAPL", from = "2021-01-01", to = "2022-01-01", SMA_period = 50, indicator = "RSI")
 ```
 # Contributing
 Contributions to yfinanceDV are welcome! If you find any issues or have suggestions for improvements, please open an issue on GitHub.
